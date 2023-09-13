@@ -1,9 +1,6 @@
-h1 {
-    color: orange;
+*{box-sizing: border-box; 
 }
-{box-sizing: border-box;
-}
-
+/*The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
 ul { 
 margin: 0;
 padding: 0;}
@@ -29,7 +26,7 @@ ul li:nth-child(odd) {
   ul li:hover {background: #ddd;
 }
 
-ul li:.checked {
+ul li.checked {
     background: #888;
     color: #fff;
     text-decoration: line-through; 
